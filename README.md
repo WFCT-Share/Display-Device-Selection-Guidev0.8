@@ -122,7 +122,8 @@ FHD是最常用的分辨率，适用于当今绝大多数的数字媒体制作�
 #### 7680×4320
 奢侈品，暂不作考虑。
 #### 分辨率一览表
-![分辨率一览表](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%88%86%E8%BE%A8%E7%8E%87%E6%95%B0%E6%8D%AE%E8%A1%A8.png) 
+![分辨率一览表](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%88%86%E8%BE%A8%E7%8E%87%E6%95%B0%E6%8D%AE%E8%A1%A8.png)   
+![分辨率对比](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%88%86%E8%BE%A8%E7%8E%87%E5%AF%B9%E6%AF%94.png)   
 上下黑边是指：在播放时屏幕上下多出分辨率的部分会显示黑色，不影响观感。  
 非点对点缩放：是指显示分辨率与屏幕分辨率不同时，会使用缩放算法，在非整数倍的缩放条件下，任何缩放算法都会丢失部分信息导致画面锯齿感与观感差异。  
 [非点对点映射科普](https://www.zhihu.com/question/54158058)  
@@ -147,6 +148,10 @@ PPI
 =对角线像素数/对角线长度
 =√（横向分辨率²+纵向分辨率²）/对角线长度
 (单位：像素/英寸)
+#### PPI一览表
+![PPI一览表](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/PPI%E6%95%B0%E6%8D%AE%E8%A1%A8.png)  
+选择建议：PPI并不是越大越好，在相同分辨率下，越大的PPI意味着屏幕尺寸越小。过小的屏幕反而会影响办公效率，同时过小的PPI也会导致屏幕所显示字体锯齿化，故选购显示设备时需要根据个人对于PPI以及尺寸的喜好来综合选择。
+
 ### 参数-刷新率
 [刷新率 wiki](https://zh.wikipedia.org/zh/%E5%88%B7%E6%96%B0%E7%8E%87
 )  
@@ -166,6 +171,8 @@ PPI
 刷新率：大于等于120Hz
 适用于处理120Hz的影视素材
 ### 个性化-刷新率对于体验的影响
+![刷新率数据表](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%88%B7%E6%96%B0%E7%8E%87%E6%95%B0%E6%8D%AE%E8%A1%A8.png)  
+![刷新率曲线](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/Refresh%20rate-Frame%20update%20time%20Chart.png)    
 函数解析式：f(x)=1000/x、x>0
 由图可见，帧更新时间的减少幅度随着刷新率的增加而增加，即刷新率的数值越大，观感提升瓶颈也越大。
 ### 参数-色彩
@@ -186,6 +193,8 @@ PPI
 注意：厂商常常把色域覆盖与色域容积二者的参数虚表或混淆，请多多留心或者多看测评
 不靠谱的tip：通常来说对某一色彩空间达到色域覆盖与色彩容积都接近100%的显示器显示这个色彩空间的效果最好，因为色域容积过大常常意味着色域缩限，这依托厂商对此的调校，否则会出现色偏。
 
+![色彩空间](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4%E5%AF%B9%E6%AF%94.png)  
+
 **sRGB**  
 Windows使用的通用色彩标准，最为常见，兼容性极佳，虽然色彩空间面积较小，但是对于设计与生产力任然是最佳选择。    
 **DCI-P3**  
@@ -198,7 +207,7 @@ Windows使用的通用色彩标准，最为常见，兼容性极佳，虽然色�
 [多个色域的详细解析数据
 ](https://wizzie.top/Blog/2019/10/21/2019/191021_android_basis/#:~:text=WCG%EF%BC%88Wide%20Color%20Gamut%EF%BC%89%EF%BC%8C%E6%98%AFAdobe%20System%E5%BC%80%E5%8F%91%E7%9A%84%E4%B8%80%E7%A7%8DRGB%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4%EF%BC%8C%E4%BD%BF%E7%94%A8%E7%BA%AF%E5%85%89%E8%B0%B1%E5%8E%9F%E8%89%B2%E6%8F%90%E4%BE%9B%E8%BE%83%E5%A4%A7%E7%9A%84%E8%89%B2%E5%9F%9F%E3%80%82%20%E4%B8%8EAdove,RGB%E5%92%8CsRGB%E7%9B%B8%E6%AF%94%EF%BC%8C%E8%83%BD%E5%A4%9F%E5%AD%98%E5%82%A8%E6%9B%B4%E5%A4%A7%E8%8C%83%E5%9B%B4%E7%9A%84%E9%A2%9C%E8%89%B2%E5%80%BC%E3%80%82%20%E7%9B%B8%E6%AF%94%E4%B9%8B%E4%B8%8B%EF%BC%8CWCG%E5%8C%85%E5%90%AB%20CIELAB%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4%20%E5%8F%AF%E8%A7%81%E9%A2%9C%E8%89%B2%E7%9A%8477.6%25%EF%BC%8C%E8%80%8CAdobe%20RGB%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4%E4%BB%85%E8%A6%86%E7%9B%9652.1%25%EF%BC%8CsRGB%E4%BB%85%E8%A6%86%E7%9B%9635.9%25%E3%80%82
 )  
-
+![色域马蹄图](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E8%89%B2%E5%9F%9F%E9%A9%AC%E8%B9%84%E5%9B%BE.png)  
 通常而言，显示器对于一个色彩空间的色域覆盖达到90%以上就可看作是兼容这个色域使用的显示器，在商品宣传页面也通常会标注99%、100%的字样  
 色彩偏差的准则：  
 用更广的色域显示更窄的色域会导致成像颜色过饱和，反之欠饱和
@@ -209,6 +218,7 @@ Windows使用的通用色彩标准，最为常见，兼容性极佳，虽然色�
 色准决定显示器颜色是否能显示准确的颜色。    
 在数值上，使用∆E（偏差值）来进行衡量。  
 ∆E越大代表色彩偏差值越大，色准就越差  
+![色准](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E8%89%B2%E5%87%86%E6%95%B0%E6%8D%AE%E5%9B%BE.png)  
 **生产力分析**  
 选择高色准的显示器非常重要，能够保证自己创作的颜色与其他人所看到的基本一致。
 #### 色深
@@ -217,15 +227,18 @@ Windows使用的通用色彩标准，最为常见，兼容性极佳，虽然色�
 计算公式：  
 阶梯数 = 2^位数  
 所能显示的色彩数 = 阶梯数^3 =2^(3*位数)  
+![色深](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E8%89%B2%E6%B7%B1%E6%95%B0%E6%8D%AE%E8%A1%A8.png)  
 [色深科普](https://www.bilibili.com/video/BV1dp4y1S7ow/?spm_id_from=333.788.recommend_more_video.1&vd_source=a739d545ddec699830e2b4dbbf3523c2)  
 [色深 WIKI](https://zh.wikipedia.org/wiki/%E8%89%B2%E5%BD%A9%E6%B7%B1%E5%BA%A6)  
 **FRC**  
 考虑到制造工艺上的难题，10bit及以上的显示设备造价高昂，显示设备厂商通常会使用像素抖动技术FRC（Frame Rate Control）技术来实现低色深显示器呈现高色深效果。  
 原理上是通过临近之间阶梯的颜色来回抖动实现欺骗眼睛的效果，虽然目前技术已经非常成熟，但是任然会产生静态的噪点影响显示的效果，仅仅只能做到缓解色彩断层的现象。  
+![FRC](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/FRC%E6%95%B0%E6%8D%AE.png)  
 [FRC科普【03:19开始】](https://www.bilibili.com/video/BV1dp4y1S7ow/?spm_id_from=333.788.recommend_more_video.1&vd_source=a739d545ddec699830e2b4dbbf3523c2)
 #### 色温
 **通常此项参数不会标注在任何显示器的购买页面。**  
 [CIE标准光源解析](https://zhuanlan.zhihu.com/p/78989078)  
+![色温](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E8%89%B2%E6%B8%A9.png)  
 所谓D65标准，即色温6500k。
 D65原本是工业设计的标准，平时使用的纯白色日光灯，纯白色的显示内容通常都是以6500k为标准生产的，其目的是使得相机能够在确定的标准下尽可能还原现实的颜色，也就是现代人普遍认识的白色是6500k色温下的白色，为了使作品的色彩不出现偏差，需要使用6500k的色温进行创作。（部分发达国家虽然已经开始尝试普及D50标准，此标准可以大幅减少蓝光以保护视力，但距离大规模普及还十分遥远，目前可以考虑，但不提倡使用）  
 
@@ -263,6 +276,7 @@ HDR是一种先进的屏幕成像技术，通过拉大显示器的动态亮度�
 此外，在拟真虚拟场景中在大规模使用以达到更高的影视规格。  
 通常显示器如果需要支持HDR则需要至少400nit亮度，而且需要经过专业的标准经行认证，最常见的认证是VESA DisplayHDR认证。
 目前更多地应用于写实摄影中，例如苹果手机的相机通常在摄影模式中就会保留HDR信息并通过H.265进行编码。  
+![hdr](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/HDR%E8%AE%A4%E8%AF%81.png)  
 ### 屏幕亮度与面板类型-更新中
 目前在市场上主要有三种屏幕类型：LCD、OLED、mini-LED（micro-LED奢侈品性质排除在外）  
 [LCD与OLED的对比](https://www.bilibili.com/video/BV1Wz411B7Tf/?spm_id_from=333.337.search-card.all.click&vd_source=a739d545ddec699830e2b4dbbf3523c2)  
@@ -322,6 +336,7 @@ OLED通常造价较高，其性价比是低于LCD的。
 特性④：PS5、Xbox Series等次世代主机仅支持HDMI传输协议。  
 特性⑤：支持VRR可变刷新率等技术。（需要显示器支持，在参数详解里有详细介绍）  
 ##### HDMI规格一览表
+![hdmi](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/HDMI%E4%B8%80%E8%A7%88%E8%A1%A8.png)    
 [图表转载自此并经行了重绘](https://zhuanlan.zhihu.com/p/95701630)  
 如图表所示：部分信息标注为 YUV422、YUV420、DSC，这是因为传输协议的带宽有限，若是需要传输超越此带宽的视频流信息，需要使用压缩算法对视频进行压缩，以下是两种压缩算法的介绍：  
 [YUV颜色格式的科普](https://zhuanlan.zhihu.com/p/559604138)  
@@ -331,6 +346,7 @@ YUV422、YUV420压缩
 4:4:4  →YUV444（无压缩） =  RGB无压缩模式  
 4:2:2  →YUV422  
 4:2:0  →YUV420  
+![yasuo](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%8E%8B%E7%BC%A9%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3.png)  
 压缩后保真效果：DSC > YUV422 >> YUV420  
 选购策略建议：尽可能选择不压缩的带宽。
 #### DP类
@@ -338,6 +354,7 @@ YUV422、YUV420压缩
 特性①：优秀的兼容性，在雷电3【20 Gbit/s】（部分含有DP1.3、部分含有DP1.4）、雷电4【40 Gbit/s 】（含有DP1.4）的协议中含有DP协议，同时也可以实现供电（高带宽数据走光信号、能量走电信号）。所以部分显示器支持Type-C一线通。  
 特性②：此认证标准是完全免费开源的，支持它相当于为开源事业作贡献。
 ##### DP规格一览表
+![dp](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/DP%E4%B8%80%E8%A7%88%E8%A1%A8.png)  
 [图表转载自此并进行重绘](https://www.bilibili.com/read/cv5777561/)  
 #### 兼容性：
 目前阶段不支持任何HDMI转DP或者DP转HDMI的方案，独立显示器通常都是DP与HDMI二者兼备，而笔记本与一体机则是通过屏线经行传输无需考虑协议，所以理论上用不到转接。（除了只有C口的笔记本转接HDMI或者笔记本电脑接多台显示器雷电转HDMI）
@@ -385,12 +402,15 @@ YUV422、YUV420压缩
 ## 显示器优化-更新中
 [屏幕截图素材来自，显示器型号：红魔电竞显示器](https://www.bilibili.com/video/BV1pd4y1C7Vf/?spm_id_from=333.999.0.0&vd_source=a739d545ddec699830e2b4dbbf3523c2)  
 ### 色温调节
-如果遇到显示器出场色温有偏差，可在OSD调节菜单中调至合理的色温经行使用，详情需要结合测评或者询问技术售后。
+如果遇到显示器出场色温有偏差，可在OSD调节菜单中调至合理的色温经行使用，详情需要结合测评或者询问技术售后。  
+![色温](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/OSD%E8%B0%83%E8%8A%82%E8%89%B2%E6%B8%A9.png)  
 ### 色彩空间切换
 可在菜单中找到显示模式来实现色域缩限以适配不同场景。  
 注意：此功能并不完美，可以会出现色偏、无法调整屏幕亮度等问题，完全依赖厂家的调校和出厂的产品质量，建议结合评测视频来使用。  
+![色域](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/OSD%E5%88%87%E6%8D%A2%E8%89%B2%E5%9F%9F.png)  
 ## 软件设置-更新中
 ### 在Windows操作系统下查看色域
+![se](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9F%A5%E7%9C%8B%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4.png)  
 注意：在Windows系统下默认并且只能以sRGB的格式来进行色彩显示，这是为了兼容性而做出的妥协。  
 **查看方式：在开始搜索框-搜索色彩管理**
 ### 在Windows下实现广色域的色彩管理（待更新）
@@ -399,24 +419,33 @@ YUV422、YUV420压缩
 快捷键：win + alt + B
 ### GPU设置（以NVIDIA显卡为例）：
 在搜索框中打开NVIDIA Control Panel  
+![nv](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/NV%E6%8E%A7%E5%88%B6%E9%9D%A2%E6%9D%BF.png)  
 如果没有，请到NVIDIA官网下载驱动[NVIDIA](https://www.nvidia.cn/Download/index.aspx?lang=cn)  
 填写自己的GPU信息  
+![nv1](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/NV%E4%B8%8B%E8%BD%BD%E9%A9%B1%E5%8A%A8.png)  
 下载类型中推荐两个（Game Ready与Studio）都安装一下  
 #### 笔记本电脑开启独显直连
 在左侧选项卡中找到
-3D 设置-管理显示模式
+3D 设置-管理显示模式  
+![xianshi](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%BC%80%E5%90%AF%E7%8B%AC%E6%98%BE%E7%9B%B4%E8%BF%9E.png)  
 Optimus为集显与独显混合输出模式
 
-注意：如果需要完全关闭独显来省电，你需要在你所购买的品牌商的官方助手里设置，注意，有的品牌不一定有。
+注意：如果需要完全关闭独显来省电，你需要在你所购买的品牌商的官方助手里设置，注意，有的品牌不一定有。  
+![guanbi](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%85%B3%E9%97%AD%E7%8B%AC%E6%98%BE.png)  
 特别注意（独显直连的台式机忽略）：
-英伟达控制面板左侧的显示条目仅有在开启独显直连的时候才能显示与设置
-
+英伟达控制面板左侧的显示条目仅有在开启独显直连的时候才能显示与设置。
+**开启独显直连前：**  
+![duxianzhilian](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%BC%80%E5%90%AF%E7%8B%AC%E6%98%BE%E7%9B%B4%E8%BF%9E%E5%89%8D.png)  
+**开启独显直连后**  
+![hou](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%BC%80%E5%90%AF%E7%8B%AC%E6%98%BE%E7%9B%B4%E8%BF%9E%E5%90%8E.png)  
 #### 开启与关闭G-Sync
 在左侧选项卡中找到：  
-显示-设置 G-SYNC
+显示-设置 G-SYNC  
+![gsync](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/G-Sync.png)  
 #### 更改色深
 在左侧选项卡中找到
-显示-更改分辨率
+显示-更改分辨率   
+![se](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9B%B4%E6%94%B9%E8%89%B2%E6%B7%B1.png)  
 ### windows播放杜比视界影视
 [教程来自此](https://blog.csdn.net/m0_61334144/article/details/130230781)  
 注意：在windows上商店中的Dolby access并不能正常播放杜比视界，只能正常播放杜比音效，需要安装额外的插件才能播放。  
