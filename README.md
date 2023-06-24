@@ -276,7 +276,7 @@ HDR是一种先进的屏幕成像技术，通过拉大显示器的动态亮度�
 此外，在拟真虚拟场景中在大规模使用以达到更高的影视规格。  
 通常显示器如果需要支持HDR则需要至少400nit亮度，而且需要经过专业的标准经行认证，最常见的认证是VESA DisplayHDR认证。
 目前更多地应用于写实摄影中，例如苹果手机的相机通常在摄影模式中就会保留HDR信息并通过H.265进行编码。  
-![hdr](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/HDR%E8%AE%A4%E8%AF%81.png)  
+![hdr](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/VESA%20HDR%E8%AE%A4%E8%AF%81.png)  
 ### 屏幕亮度与面板类型-更新中
 目前在市场上主要有三种屏幕类型：LCD、OLED、mini-LED（micro-LED奢侈品性质排除在外）  
 [LCD与OLED的对比](https://www.bilibili.com/video/BV1Wz411B7Tf/?spm_id_from=333.337.search-card.all.click&vd_source=a739d545ddec699830e2b4dbbf3523c2)  
@@ -415,8 +415,9 @@ YUV422、YUV420压缩
 **查看方式：在开始搜索框-搜索色彩管理**
 ### 在Windows下实现广色域的色彩管理（待更新）
 ### 在Windows开启HDR的方式
-设置-系统-屏幕中打开
-快捷键：win + alt + B
+设置-系统-屏幕中打开  
+快捷键：win + alt + B  
+![hdkw](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/windows%E5%BC%80%E5%90%AFhdr.png)  
 ### GPU设置（以NVIDIA显卡为例）：
 在搜索框中打开NVIDIA Control Panel  
 ![nv](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/NV%E6%8E%A7%E5%88%B6%E9%9D%A2%E6%9D%BF.png)  
@@ -439,11 +440,11 @@ Optimus为集显与独显混合输出模式
 **开启独显直连后**  
 ![hou](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%BC%80%E5%90%AF%E7%8B%AC%E6%98%BE%E7%9B%B4%E8%BF%9E%E5%90%8E.png)  
 #### 开启与关闭G-Sync
-在左侧选项卡中找到：  
+在左侧选项卡中找到：    
 显示-设置 G-SYNC  
 ![gsync](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/G-Sync.png)  
 #### 更改色深
-在左侧选项卡中找到
+在左侧选项卡中找到：   
 显示-更改分辨率   
 ![se](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9B%B4%E6%94%B9%E8%89%B2%E6%B7%B1.png)  
 ### windows播放杜比视界影视
@@ -454,23 +455,29 @@ Optimus为集显与独显混合输出模式
 【有效期验证：2023年6月】
 [杜比视界解码器正版官方链接（直接在windows商店搜索不出来）](https://apps.microsoft.com/store/detail/dolby-vision/9MVMZ93N61T9?hl=zh-cn&gl=cn)
 【有效期验证：2023年6月】
-安装完毕后在设置里找到如下应用就说明安装成功了
+安装完毕后在设置里找到如下应用就说明安装成功了。  
+![db](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9D%9C%E6%AF%94%E8%A7%86%E7%95%8C%E5%AE%89%E8%A3%85.png)  
 ###### 很奇怪。。。有的时候能下，有的时候又不能下，一会儿锁国区一会儿又不锁，薛定谔的锁国区。
 #### 安装视频编解码器
 ##### HEVC解码插件  
-可以解析H.265编码的视频，此编码是HDR视频较常见的编码。  
+可以解析H.265编码的视频，此编码是HDR视频较常见的编码。    
 可使用Windows商店直接搜索获取或通过如下网址安装正版。  
 [安装网址](https://apps.microsoft.com/store/detail/hevc-%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95/9NMZLZ57R3T7?hl=zh-cn&gl=cn)  
 成本：7￥(国区) 或 1$（美区）  
+![hevc](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/HEVC.png)
 ##### AV1解码插件  
-可以解析AV1编码的视频，此编码方式目前比较少见。
+可以解析AV1编码的视频，此编码方式目前比较少见。  
 可使用Windows商店直接搜索获取或通过如下网址安装。  
 [安装网址](https://apps.microsoft.com/store/detail/av1-video-extension/9MVZQVXJBQ9V?hl=zh-cn&gl=cn)  
-成本：开源免费
+成本：开源免费  
+![av1](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/AV1.png)  
 #### 操作流程
 在搜索框内打开Dolby Vision  
-保持此应用打开的状态播放杜比视界内容  
-杜比视界效果：左侧是正常开启，右侧是开启失败，颜色异常。    
+![dbv](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9D%9C%E6%AF%94%E8%BD%AF%E4%BB%B6.png)  
+保持此应用打开的状态播放杜比视界内容。  
+![dbk](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9D%9C%E6%AF%94%E8%BD%AF%E4%BB%B6-%E7%95%8C%E9%9D%A2.png)   
+杜比视界效果：左侧是正常开启，右侧是开启失败，颜色异常。  
+![duibi](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%AF%B9%E6%AF%94%E5%9B%BE%E7%89%87.png)      
 ### 设置技巧
 在经行对专业色彩有要求的美术工作时，请保证显示器不对画面进行额外处理：  
 ①所设计内容不涉及HDR时请关闭HDR。   
