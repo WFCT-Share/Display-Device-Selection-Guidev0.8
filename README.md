@@ -122,6 +122,7 @@ FHD是最常用的分辨率，适用于当今绝大多数的数字媒体制作�
 #### 7680×4320
 奢侈品，暂不作考虑。
 #### 分辨率一览表
+![分辨率一览表](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E5%88%86%E8%BE%A8%E7%8E%87%E6%95%B0%E6%8D%AE%E8%A1%A8.png) 
 上下黑边是指：在播放时屏幕上下多出分辨率的部分会显示黑色，不影响观感。  
 非点对点缩放：是指显示分辨率与屏幕分辨率不同时，会使用缩放算法，在非整数倍的缩放条件下，任何缩放算法都会丢失部分信息导致画面锯齿感与观感差异。  
 [非点对点映射科普](https://www.zhihu.com/question/54158058)  
