@@ -41,7 +41,18 @@ TAG: `生产力工具协同体系`，`技术解析信息系统 `
     - [个性化-响应时间](#个性化-响应时间)
 - [选购搭配](#选购搭配)
 - [显示器优化（更新中）](#显示器优化-更新中)
+    - [色温调节](#色温调节)
+    - [色彩空间切换](#色彩空间切换)
 - [软件设置（更新中）](#软件设置-更新中)
+    - [在Windows操作系统下查看色域](#在windows操作系统下查看色域)
+    - 在Windows下实现广色域的色彩管理（待更新）
+    - [在Windows中开启HDR的方式](#在windows中开启hdr的方式)
+    - [GPU设置（以NVIDIA显卡为例）](#nv-setting)
+        - [笔记本电脑开启独显直连](#笔记本电脑开启独显直连)
+        - [开启与关闭G-Sync](#开启与关闭g-sync)
+        - [更改色深](#更改色深)
+    - [Windows播放杜比视界影视](#windows播放杜比视界影视)
+    - [设置技巧](#设置技巧)
 - [避坑](#避坑)
 ## <a id="writing-purpose">编写目的</a>  
 个人在自学显示设备相关知识的过程，一边中进行笔记整理的同时，一边尝试撰写可供他人参考学习的解析书，帮助大家在数字媒体硬件设备上遇到难题时可以便捷地系统化了解相关知识。  
@@ -414,11 +425,11 @@ YUV422、YUV420压缩
 注意：在Windows系统下默认并且只能以sRGB的格式来进行色彩显示，这是为了兼容性而做出的妥协。  
 **查看方式：在开始搜索框-搜索色彩管理**
 ### 在Windows下实现广色域的色彩管理（待更新）
-### 在Windows开启HDR的方式
+### 在Windows中开启HDR的方式
 设置-系统-屏幕中打开  
 快捷键：win + alt + B  
 ![hdkw](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/windows%E5%BC%80%E5%90%AFhdr.png)  
-### GPU设置（以NVIDIA显卡为例）：
+### <a id="nv-setting">GPU设置-以NVIDIA显卡为例</a>  
 在搜索框中打开NVIDIA Control Panel  
 ![nv](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/NV%E6%8E%A7%E5%88%B6%E9%9D%A2%E6%9D%BF.png)  
 如果没有，请到NVIDIA官网下载驱动[NVIDIA](https://www.nvidia.cn/Download/index.aspx?lang=cn)  
@@ -447,7 +458,7 @@ Optimus为集显与独显混合输出模式
 在左侧选项卡中找到：   
 显示-更改分辨率   
 ![se](https://github.com/WFCT-Share/Display-Device-Selection-Guidev0.8/blob/main/Picture%20Resources/%E6%9B%B4%E6%94%B9%E8%89%B2%E6%B7%B1.png)  
-### windows播放杜比视界影视
+### Windows播放杜比视界影视
 [教程来自此](https://blog.csdn.net/m0_61334144/article/details/130230781)  
 注意：在windows上商店中的Dolby access并不能正常播放杜比视界，只能正常播放杜比音效，需要安装额外的插件才能播放。  
 #### 安装杜比视界插件
